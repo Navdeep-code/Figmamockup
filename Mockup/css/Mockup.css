@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font:300 1em "Poppins", sans-serif;
+}
+body{
+    margin:0;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.content-wrapper{
+    max-width:1300px;
+    margin:0 auto;
+}
+
+.wrapper{
+    display:flex;
+    flex-flow:row wrap;
+    gap:20px;
+    align-items: center;
+    margin: 0;
+  }
+
+  
+header h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    flex:4 0 0;
+    display: inline-block;
+    margin-top: 0.84375em;
+    margin-bottom: 0.84375em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav{
+    flex: 6 0 0;
+    margin-top:0.727em;
+    margin-bottom: 0.727em;
+}
+
+.menu a{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover{
+    color: #AD00FF;
+}
+
+.menu ul{
+    margin: 0;
+    padding:0;
+}
+.menu li{
+    display: inline-block;
+    list-style-type:none;
+    margin-right: 3.33em;
+    padding: 0;
+    text-align: center;
+}
+
+
+main{
+    background:url("../image/macarons\ 1.png") center center no-repeat #000;
+    text-align: center;
+}
+
+
+main h1{
+    font-size: 4em;
+    font-weight: 700;
+    color:#fff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:0;
+    margin-top: 2.19em;
+    margin-bottom: 0.453125em;
+}
+.hero-content{
+    display: inline-block;
+    text-align: center;
+    max-width: 697px;
+    
+}
+
+#button{
+    color: #AD00FF;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 2.25em;
+    border: 5px solid #AD00FF;
+    padding:0.825em 3.1em;
+    margin-bottom: 202px;
+}
+#button:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footernav{
+    margin:0;
+padding-top: 0.5em;
+padding-bottom: 2.125em;
+padding-left: 3.208em;
+}
+
+#copy{
+margin-top: 1.428em;
+margin-bottom:0.714em;
+margin-left:3.208em;
+}
